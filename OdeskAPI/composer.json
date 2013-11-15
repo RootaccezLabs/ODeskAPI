@@ -1,0 +1,24 @@
+{
+    "name": "rootaccez/ODeskAPI",
+    "description": "oDesk auth library for using with public API by app_key ",
+    "homepage": "https://github.com/RootaccezLabs/ODeskAPI",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "authors": [
+        {
+            "name": "Gowri Sankar",
+            "email": "gchokeen@gmail.com"
+            "homepage": "http://code-coktail.in/"
+        }
+    ],
+    "autoload": {
+        "classmap": ["lib"]
+    }
+}
