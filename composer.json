@@ -1,5 +1,5 @@
 {
-    "name": "rootaccez/ODeskAPI",
+    "name": "rootaccez/odeskapi",
     "description": "oDesk auth library for using with public API by app_key ",
     "homepage": "https://github.com/RootaccezLabs/ODeskAPI",
     "minimum-stability": "dev",
