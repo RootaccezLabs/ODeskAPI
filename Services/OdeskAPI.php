@@ -10,6 +10,8 @@
  * @author      Maksym Novozhylov <mnovozhilov@odesk.com> 
  * @license     oDesk's API Terms of Use {@link http://developers.odesk.com/API-Terms-of-Use}
  */
+namespace RootAccez\OdeskapiBundle\Services;
+
 class OdeskAPI {
 
     const URL_LOGIN     = 'https://www.odesk.com/login';
