@@ -1,10 +1,10 @@
 {
     "name": "rootaccez/odeskapi",
+    "type": "symfony-bundle",    
     "description": "oDesk auth library for using with public API by app_key ",
     "homepage": "https://github.com/RootaccezLabs/ODeskAPI",
     "minimum-stability": "dev",
     "license": "MIT",
-    "type": "library",
     "require": {
         "php": ">=5.2.4"
     },
@@ -19,6 +19,7 @@
         }
     ],
     "autoload": {
-        "classmap": ["lib"]
-    }
+        "psr-0": { "RootAccez\\OdeskapiBundle": "" }
+    },
+    "target-dir": "RootAccez/OdeskapiBundle"
 }
